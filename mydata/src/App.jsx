@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import BioPage from './Biopage'
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const [count, setCount] = useState(0)
