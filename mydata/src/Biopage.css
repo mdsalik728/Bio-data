@@ -95,8 +95,10 @@
 .bio-header { text-align: center; margin-bottom: 50px; }
 
 .animated-name {
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(3rem, 10vw, 4.5rem);
-  font-weight: 900;
+  font-weight: 800; /* Bold for professional impact */
+  letter-spacing: 0.5px;
   line-height: 1.2;
   padding: 10px 0;
   background: linear-gradient(to right, #fff 20%, #f43f5e 40%, #f43f5e 60%, #fff 80%);
@@ -109,7 +111,7 @@
 
 @keyframes shine { to { background-position: 200% center; } }
 
-.subtitle { color: #f43f5e; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; }
+.subtitle { font-family: 'Montserrat', sans-serif; color: #f43f5e; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; font-size: 1rem; }
 
 /* --- Details Content (Left Aligned) --- */
 .details-content {
@@ -134,8 +136,10 @@
 }
 
 .bold-heading {
-  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 1.4rem;
+  letter-spacing: 0.5px;
   color: #f43f5e;
   margin-bottom: 15px;
   text-transform: uppercase;

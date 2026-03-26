@@ -33,12 +33,13 @@ const BioPage = () => {
       rootMargin: "0px 0px -50px 0px"
     };
 
-    const observer = new IntersectionObserver((entries, observerInstance) => {
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('active');
-          // Play the animation only once for a cleaner, professional feel
-          observerInstance.unobserve(entry.target);
+        } else {
+          // Remove the class when out of view so it animates back in when scrolling in any direction
+          entry.target.classList.remove('active');
         }
       });
     }, observerOptions);
