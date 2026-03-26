@@ -3,20 +3,16 @@ import './Biopage.css';
 
 // Importing all 10 assets
 import img1 from './assets/1.jpeg';
-import img2 from './assets/2.jpeg';
-import img3 from './assets/3.jpeg';
-import img4 from './assets/4.jpeg';
+import img3 from './assets/s2.jpeg';
 import img5 from './assets/5.jpeg';
-import img6 from './assets/6.jpeg';
-import img7 from './assets/7.jpeg';
-import img8 from './assets/8.jpeg';
-import img9 from './assets/9.jpeg';
+
+import img2 from './assets/s.jpeg';
 import img10 from './assets/10.jpeg';
 
 const BioPage = () => {
   const [selectedImg, setSelectedImg] = useState(null);
   const scrollRef = useRef(null);
-  const photos = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
+  const photos = [img1, img2, img3, img5,img10];
 
   const scroll = (direction) => {
     if (scrollRef.current) {
@@ -76,7 +72,7 @@ const BioPage = () => {
             <h3 className="bold-heading">Personal Details:</h3>
             <p><strong>Date-of-birth :</strong> 08-09-2000</p>
             <p><strong>Place of birth :</strong> Dhanbad, Jharkhand</p>
-            <p><strong>Height :</strong> 5 foot 8 inch</p>
+            <p><strong>Height :</strong> 5 foot 9 inch (175.5 cm)</p>
             <p><strong>Religion :</strong> Islam</p>
             <p><strong>Aqeedah :</strong> Salafi (Ahle-Hadith)</p>
             <p><strong>Complexion :</strong> Fair</p>
@@ -84,8 +80,7 @@ const BioPage = () => {
 
           <div className="detail-group reveal-right delay-200">
             <h3 className="bold-heading">Educational Details:</h3>
-            <p><strong>Xth :</strong> De Nobili School, FRI (ICSE board)</p>
-            <p><strong>XIIth :</strong> Kids Garden School, Jharia (CBSE board)</p>
+     
             <p><strong>Graduation :</strong> Bsc(hons) Physics, JAMIA MILLIA ISLAMIA</p>
             <p><strong>Post Graduation :</strong> Master of Computer Application(MCA), JAMIA MILLIA ISLAMIA (final year)</p>
           </div>
@@ -102,6 +97,8 @@ const BioPage = () => {
           <div className="detail-group reveal-right delay-400">
             <h3 className="bold-heading">Contact Details:</h3>
             <p><strong>Phone Number :</strong> 7281026680</p>
+              
+
             <p><strong>Email :</strong> mdsalikdns@gmail.com</p>
             <p><strong>Address :</strong> Lower Rajbari Road, Jharia, Dhanbad, Jharkhand-828111</p>
           </div>
