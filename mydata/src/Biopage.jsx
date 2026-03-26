@@ -107,7 +107,7 @@ const BioPage = () => {
         {/* Gallery Section - Placed BELOW Details */}
         <section className="gallery-wrapper reveal-zoom delay-100">
           <div className="section-header">
-            <h3 className="bold-heading">Gallery  (click to expand)</h3>
+            <h3 className="bold-heading">Gallery  (swipe for more)</h3>
             <div className="nav-btns">
               <button className="scroll-btn" onClick={() => scroll('left')}>←</button>
               <button className="scroll-btn" onClick={() => scroll('right')}>→</button>
