@@ -72,7 +72,7 @@ const BioPage = () => {
             <h3 className="bold-heading">Personal Details:</h3>
             <p><strong>Date-of-birth :</strong> 08-09-2000</p>
             <p><strong>Place of birth :</strong> Dhanbad, Jharkhand</p>
-            <p><strong>Height :</strong> 5 foot 9 inch (175.5 cm)</p>
+            <p><strong>Height :</strong> 5 feet 9 inch (175.5 cm)</p>
             <p><strong>Religion :</strong> Islam</p>
            
             <p><strong>Complexion :</strong> Fair</p>
