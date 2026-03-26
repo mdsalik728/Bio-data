@@ -100,6 +100,7 @@ const BioPage = () => {
               
 
             <p><strong>Email :</strong> mdsalikdns@gmail.com</p>
+             <p><strong>Instagram :</strong> <a href="https://www.instagram.com/mdsalik007">@mdsalik007</a></p>
             <p><strong>Address :</strong> Lower Rajbari Road, Jharia, Dhanbad, Jharkhand-828111</p>
           </div>
         </section>
