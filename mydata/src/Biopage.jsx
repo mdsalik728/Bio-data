@@ -81,8 +81,8 @@ const BioPage = () => {
           <div className="detail-group reveal-right delay-200">
             <h3 className="bold-heading">Educational Details:</h3>
      
-            <p><strong>Graduation :</strong> Bsc(hons) Physics, JAMIA MILLIA ISLAMIA</p>
-            <p><strong>Post Graduation :</strong> Master of Computer Application(MCA), JAMIA MILLIA ISLAMIA (final year)</p>
+            <p><strong>Graduation :</strong> Bsc(hons) Physics, JAMIA MILLIA ISLAMIA,New Delhi</p>
+            <p><strong>Post Graduation :</strong> Master of Computer Application(MCA), JAMIA MILLIA ISLAMIA,New Delhi (final year)</p>
           </div>
 
           <div className="detail-group reveal-left delay-300">
