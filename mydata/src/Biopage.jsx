@@ -3,16 +3,16 @@ import './Biopage.css';
 
 // Importing all 10 assets
 import img1 from './assets/1.jpeg';
-import img3 from './assets/s2.jpeg';
+
 import img5 from './assets/5.jpeg';
 
 import img2 from './assets/s.jpeg';
-import img10 from './assets/10.jpeg';
+
 
 const BioPage = () => {
   const [selectedImg, setSelectedImg] = useState(null);
   const scrollRef = useRef(null);
-  const photos = [img1, img2, img3, img5,img10];
+  const photos = [img1, img2, img5];
 
   const scroll = (direction) => {
     if (scrollRef.current) {
@@ -74,7 +74,7 @@ const BioPage = () => {
             <p><strong>Place of birth :</strong> Dhanbad, Jharkhand</p>
             <p><strong>Height :</strong> 5 foot 9 inch (175.5 cm)</p>
             <p><strong>Religion :</strong> Islam</p>
-            <p><strong>Aqeedah :</strong> Salafi (Ahle-Hadith)</p>
+           
             <p><strong>Complexion :</strong> Fair</p>
           </div>
 
